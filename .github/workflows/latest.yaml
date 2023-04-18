@@ -21,5 +21,5 @@ jobs:
 
           - name: 'Build Inventory Image'
             run: |
-              docker build . --tag ghcr.io/emattiza/PyTerraBackTyl:latest
-              docker push ghcr.io/emattiza/PyTerraBackTyl:latest
+              docker build . --tag ghcr.io/emattiza/pyterrabacktyl:latest
+              docker push ghcr.io/emattiza/pyterrabacktyl:latest
